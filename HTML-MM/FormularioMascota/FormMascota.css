@@ -1,0 +1,26 @@
+body {
+    background-image: url(Imagen/dog_sitting_foliage_118931_3840x2160.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.form-select {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}

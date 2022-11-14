@@ -1,0 +1,29 @@
+body {
+    background-image: url(Imagen/la-vida-secreta-de-las-mascotas_2880x1800_xtrafondos.com.jpg);
+    background-size: cover;
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
+
+.input-group-text {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
+
+.form-select {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
+
+.btn-dark {
+    margin: 0 auto;
+}

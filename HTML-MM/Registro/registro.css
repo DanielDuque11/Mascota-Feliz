@@ -1,0 +1,22 @@
+body {
+    background-image: url(Imagen/beautiful-pet-portrait-of-small-dog-and-cat1\ \(2\).jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 200px;
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
+
+.input-group-text {
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    color: black;
+    border-color: black;
+}
