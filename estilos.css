@@ -1,0 +1,37 @@
+body {
+    background-image: url(mascota.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.formulario{
+    background: rgba(0, -0, -0, -.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px;
+    color: blue;
+
+}
+.ingresar {
+    background: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: blueviolet;
+}
+.olvide1 {
+    color: black;
+    text-decoration-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.olvide1:hover {
+ color: aqua;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}

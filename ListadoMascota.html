@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <br>
+    <center>
+    <div class="container">
+
+<h1>Formulario Mascota!</h1>
+
+
+      
+
+<label class="txtEspecie" for="inputGroupSelect01">Especie</label>
+<select class="form-select" id="txtEspecie">
+  <option selected>...</option>
+  <option value="1">Canino</option>
+  <option value="2">Felino</option>
+  <option value="3">Roedores</option>
+  <option value="3">Reptiles</option>
+  <option value="3">Peces</option>
+  <option value="3">Otros...</option>
+</select>
+
+<div class="col-md-6">
+
+
+    
+    <label for="txtNombreMas" class="form-label">Nombre Mascota</label>
+    <input type="text" class="form-control" id="txtNombreMas" required>
+    <div class="invalid-feedback">
+       
+    </div>
+</div>
+<div class="col-md-6">
+
+
+    
+    <label for="txtImagen" class="form-label">Imagen</label>
+    <input type="text" class="form-control" id="txtImagen" required>
+    <div class="invalid-feedback">
+       
+    </div>
+</div>
+<div class="col-md-6">
+    <label for="txtEstado" class="form-label">Estado</label>
+    <select class="form-control" id="txtEstado" required>
+      <option>Pendiente...</option>
+       </select>
+  </div>
+
+  <div class="col-md-6">
+  <label for="txtComentario" class="form-label">Comentario</label>
+  <input type="text" class="form-control" id="txtComentario" required>
+  <div class="invalid-feedback">
+     
+  </div>
+</div>
+
+<pre>
+
+    <div class="col-4">
+        <button class="btn btn-primary" onclick="RegistrarMascota()">Registrar Mascota</button>
+    </div>
+
+</div>
+</div>
+</pre>
+
+
+<script type="text/javascript" src="Recursos/funcionMascota.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+</center>
+
+</html>
